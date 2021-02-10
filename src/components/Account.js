@@ -11,7 +11,7 @@ function Account() {
         setMakeChange(false);
     }
     const { name, email, password } = useSelector((state) => state.myDetails);
-
+    
     return (
         <div>
             { makeChange ? 
